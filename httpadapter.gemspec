@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<addressable>, ["~> 2.2.0"])
+      #s.add_runtime_dependency(%q<addressable>, ["~> 2.2.0"])
       s.add_development_dependency(%q<rake>, ["~> 0.8.3"])
       s.add_development_dependency(%q<rspec>, ["~> 1.1.11"])
       s.add_development_dependency(%q<launchy>, ["~> 0.3.2"])
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<typhoeus>, ["~> 0.1.31"])
       s.add_development_dependency(%q<rack>, ["~> 1.2.0"])
     else
-      s.add_dependency(%q<addressable>, ["~> 2.2.0"])
+      #s.add_dependency(%q<addressable>, ["~> 2.2.0"])
       s.add_dependency(%q<rake>, ["~> 0.8.3"])
       s.add_dependency(%q<rspec>, ["~> 1.1.11"])
       s.add_dependency(%q<launchy>, ["~> 0.3.2"])
