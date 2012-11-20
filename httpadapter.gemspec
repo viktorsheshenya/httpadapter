@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rack>, ["~> 1.2.0"])
     end
   else
-    s.add_dependency(%q<addressable>, ["~> 2.2.0"])
+    #s.add_dependency(%q<addressable>, ["~> 2.2.0"])
     s.add_dependency(%q<rake>, ["~> 0.8.3"])
     s.add_dependency(%q<rspec>, ["~> 1.1.11"])
     s.add_dependency(%q<launchy>, ["~> 0.3.2"])
